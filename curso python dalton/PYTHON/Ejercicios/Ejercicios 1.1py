@@ -1,0 +1,37 @@
+#tiempos de timing de cursos:
+#minimo: 2.5hs     promedio: 4hs     maximo: 7hs
+#tiempos crudos: promedio: 5hs     Dalto: 3.5hs
+#curso Dalto: 1.5hs
+#1) Diferencia en porcentaje entre el curso actual y los otros cursos.
+#2) Que porcentaje de material inservible se reduce del crudo en ambos casos
+#3) Ver 10 horas de dalto, a cuantas de otros cursos equivale. y al revez?
+
+curso_dalto = 1.5 * 60
+curso_minimo = 2.5*60
+curso_promedio = 4*60
+curso_maximo = 7*60
+print("----------------")
+#1)
+dif_minimo = curso_dalto * 100 / curso_minimo
+print(f"El curso de dalto equivale un {dif_minimo}% del tiempo del curso más corto")
+dif_promedio = curso_dalto * 100 / curso_promedio
+print(f"El curso de dalto equivale un {dif_promedio}% del tiempo del curso promedio")
+dif_maximo = round((curso_dalto * 100 / curso_maximo),1)
+print(f"El curso de dalto equivale un {dif_maximo}% del tiempo del curso más extenso")
+print("----------------")
+
+#2) Que porcentaje de material inservible se reduce del crudo en ambos casos
+crudo_promedio = 5*60
+crudo_eliminado_promedio = crudo_promedio - curso_promedio 
+material_inservible_promedio = crudo_eliminado_promedio * 100 / crudo_promedio
+print(f"El porcentaje de material inservible que se reduce en el crudo promedio es el {material_inservible_promedio}%")
+
+
+crudo_dalto = 3.5*60
+porcentaje_eliminado_dalto = round(((crudo_dalto - curso_dalto) * 100 / crudo_dalto),1)
+
+print(f"El porcentaje de material inservible que se reduce en el crudo de dalto es el {porcentaje_eliminado_dalto}%")
+print("----------------")
+#3) Ver 10 horas de dalto, a cuantas de otros cursos equivale. y al revez?
+print(f"Ver 10 horas de Dalto equivale a ver {round((curso_promedio / curso_dalto* 10),1)} horas de cursos promedios")
+print(f"Ver 10 horas de otros cursos equivale a ver {curso_dalto / curso_promedio *10} horas de Dalto")

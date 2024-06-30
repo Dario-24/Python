@@ -1,0 +1,47 @@
+# Paréntesis ():
+# Se utilizan principalmente en tres contextos:
+# * Para definir la orden de evaluación en expresiones matemáticas o lógicas.
+# * Para pasar argumentos a funciones o métodos.
+# * Para agrupar expresiones para mayor claridad.
+
+# Ejemplo:
+
+# Orden de evaluación en expresiones matemáticas o lógicas
+resultado = (3 + 5) * 2
+
+# Pasar argumentos a una función
+resultado = funcion(argumento1, argumento2)
+
+# Agrupar expresiones
+if (condición1 and condición2) or condición3:
+     # hacer algo
+
+# Corchetes []:
+# * Se utilizan principalmente para acceder a elementos en listas, tuplas y diccionarios, y para definir listas.
+# * También se utilizan en la indexación de cadenas y otras secuencias.
+
+# Ejemplos
+
+# Definir una lista
+   listaaa =[6, 2, 9]
+
+# Acceder a elementos en una lista o tupla
+lista = ["Arbol", "planta", "pez", "true", 5]
+print (lista [3])  #Salida: "true"
+
+# Indexación de cadenas
+mi_lista = "hola como andas"
+print(mi_lista[1:4]) #Salida: "ola"
+
+# Llaves {}:
+# Se utilizan principalmente para definir diccionarios y conjuntos.
+# Los diccionarios en Python son colecciones de pares clave-valor, y los conjuntos son colecciones 
+# de elementos únicos.
+
+# Definir un diccionario
+mi_diccionario = {"clave1": valor1, "clave2": valor2}
+
+# Definir un conjunto
+mi_conjunto = {1, 2, 3, 4, 5}
+
+

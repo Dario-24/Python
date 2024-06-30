@@ -1,0 +1,29 @@
+Operadores aritméticos:
+    + : Suma
+    - : Resta
+    * : Multiplicación
+    / : División
+    % : Módulo (devuelve el resto de la división)
+    ** : Exponenciación (elevar a la potencia)
+    // : División entera (devuelve la parte entera de la división redondeado hacia abajo)
+    ! : factorial
+
+ Operadores de comparación: Sirven para comparar elementos y devuelven True o False
+    == : Es gual que
+    != : Es distinto de
+    < : Es menor que
+    > : Es mayor que
+    <= : Es menor o igual que
+    >= : Es mayor o igual que
+
+ Operadores lógicos:
+    and : Retorna True si ambas condiciones son verdaderas
+    or : Retorna True si al menos una condición es verdadera
+    not : Retorna True si la condición es falsa, y viceversa
+
+ Operadores de asignación:
+    = : Asigna un valor a una variable
+    += : Suma el valor de la derecha al valor de la izquierda y asigna el resultado a la variable
+    -= : Resta el valor de la derecha al valor de la izquierda y asigna el resultado a la variable
+    *= : Multiplica el valor de la derecha por el valor de la izquierda y asigna el resultado a la variable
+    /= : Divide el valor de la izquierda por el valor de la derecha y asigna el resultado a la variable
